@@ -3,7 +3,7 @@
 [![GitHub Streak](https://git-hub-streak-stats.vercel.app?user=TanPham2412&theme=dark&hide_border=true&border_radius=4.4)](https://git.io/streak-stats)
 
 ### 🐍 A Snake Eating My Contributions 🐍
-![GitHub Snake](https://github.com/<TanPham2412>/<TanPham2412>/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/TanPham2412/output/github-contribution-grid-snake.svg)
 
 
 
