@@ -5,7 +5,7 @@
 ### 🐍 A Snake Eating My Contributions 🐍
 ![Snake animation](https://raw.githubusercontent.com/TanPham2412/TanPham2412/output/github-contribution-grid-snake.svg)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=&theme=tokyo-night&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanPham2412&theme=tokyo-night&area=true&hide_border=true" width="100%"/>
 
 
 
