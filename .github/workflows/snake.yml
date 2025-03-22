@@ -2,24 +2,25 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Chạy mỗi ngày lúc 00:00 UTC
-  workflow_dispatch: # Cho phép chạy thủ công
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+    - name: Generate Snake Animation
+      uses: Platane/snk@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        output: dist/snake.svg
 
-      - name: Push the generated snake.svg
-        uses: actions/upload-artifact@v4
-        with:
-          name: snake
-          path: dist/snake.svg
+    - name: Upload Snake Animation
+      uses: actions/upload-artifact@v3
+      with:
+        name: snake-animation
+        path: dist/snake.svg
