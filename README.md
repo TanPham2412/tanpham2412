@@ -1,6 +1,7 @@
 ### 📊 GitHub
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TanPham2412&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&locale=en"/>
+
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=TanPham2412&theme=tokyonight&locale=en"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanPham2412&layout=compact&langs_count=8&theme=tokyonight&locale=en"/>
   <br>
   <a href="https://git.io/streak-stats">
